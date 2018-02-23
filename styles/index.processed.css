@@ -1,0 +1,27 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 70px;
+  background-color: white !important;
+}
+
+.display-5 {
+  font-family: 'Bellefair', serif;
+  font-weight: 700;
+}
+
+/*.navbar {
+  background-color: #829682;
+}*/
+
+#socialMedia {
+  font-size: 2.5em;
+}
+
+.navbar-inverse {
+  background: #2c3e50 !important;
+}
+
+.jumbotron {
+  color: #2c3e50 !important;
+  background-color: #DCDCDC !important;
+}
