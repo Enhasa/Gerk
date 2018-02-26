@@ -30,4 +30,20 @@ body {
 	width: 100%;
 	border: 1px solid #ecf0f1;
 }
+img.grayscale {
+     filter: gray;
+    -webkit-filter: grayscale(100%); 
+    -webkit-transition: all 1.5s ease;
+    -webkit-backface-visibility: hidden; 
+}
 
+img.grayscale:hover {
+    -webkit-filter: grayscale(0%);
+}
+
+.zoom {
+    transition: transform .1s;    
+}
+.zoom:hover {
+    transform: scale(1.05); 
+}
