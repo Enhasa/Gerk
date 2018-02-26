@@ -39,4 +39,7 @@ img:hover {
 	filter: none;
 	-webkit-filter: grayscale(0);
 }
-
+#change div:hover{
+  	opacity:5;
+  cursor:pointer;
+}
