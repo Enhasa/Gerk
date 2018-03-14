@@ -1,7 +1,7 @@
 body {
 	background-color: #232323;
 	margin: 0;
-	font-family: "Montserrat", "Avenir";
+	font-family: "Montserrat", "Avenir", "Lato", sans-serif;
 }
 
 .square {
@@ -22,12 +22,16 @@ body {
 	margin: 20px auto;
 }
 
+.navbar-inverse {
+  background: #2c3e50 !important;
+}
+
 h1 {
 	text-align: center;
 	line-height: 1.1;
 	color: white;
 	background: steelblue;
-	margin: 0;
+	margin-top: 50px;
 	font-weight: normal;
 	text-transform: uppercase;
 	padding: 20px 0;
@@ -72,17 +76,3 @@ button:hover {
 	display: inline-block;
 	width: 20%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
