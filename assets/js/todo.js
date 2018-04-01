@@ -12,7 +12,7 @@ $("ul").on("click", "span", function(e){
 	e.stopPropagation();
 });
 
-$("input[type='text' maxlength='30']").keypress(function(e){
+$("input[type='text']").keypress(function(e){
 	if(e.which === 13){
 		//grabbing text box input
 		let todoText = $(this).val();
